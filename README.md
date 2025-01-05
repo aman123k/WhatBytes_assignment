@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WhatBytes
 
-## Getting Started
+## Description
 
-First, run the development server:
+WhatBytes is a web application designed to provide users with a platform to take skill tests, analyze their performance, and view their progress through various statistics and charts. The application is built using Next.js and leverages modern web technologies to deliver a responsive and user-friendly experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Skill Tests**: Users can take various skill tests and receive immediate feedback on their performance.
+- **Statistics Dashboard**: Visual representation of user performance through charts and graphs.
+- **Syllabus Analysis**: Detailed breakdown of topics covered in the skill tests with scores.
+- **Responsive Design**: The application is fully responsive and works seamlessly on different devices.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Recharts**: A composable charting library built on React components.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To get started with the project, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/yourusername/whatbytes.git
+   cd whatbytes
+   ```
 
-## Deploy on Vercel
+2. **Install dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** and navigate to `http://localhost:3000`.
+
+## Usage
+
+- Upon launching the application, users can navigate through the sidebar to access different sections.
+- Users can take skill tests and view their results in real-time.
+- The statistics dashboard provides insights into user performance, including percentile rankings and correct answers.
+- The syllabus analysis section breaks down the topics covered in the tests, allowing users to identify areas for improvement.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the creators of Next.js, React, Tailwind CSS, and Recharts for their amazing tools and libraries that made this project possible.
