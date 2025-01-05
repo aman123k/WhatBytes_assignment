@@ -80,7 +80,7 @@ export default function SkillTestCard({ setIsOpen, formData }) {
           </div>
         </div>
       </section>
-      <LineChartComponent />
+      <LineChartComponent formData={formData} />
     </section>
   );
 }

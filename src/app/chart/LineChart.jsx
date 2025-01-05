@@ -8,7 +8,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-function LineChartComponent() {
+function LineChartComponent({ formData }) {
   const lineData = [
     { percentile: 0, value: 2 },
     { percentile: 10, value: 3 },
@@ -40,8 +40,9 @@ function LineChartComponent() {
     <div className="bg-white px-6 pt-6 rounded-lg  border">
       <h3 className="text-lg font-bold mb-4">Comparison Graph</h3>
       <p className="text-gray-600 mb-4">
-        <strong> You scored 30% percentile </strong> which is lower than the
-        average percentile 72% of all the engineers who took this assessment
+        <strong> You scored {formData?.percentile}% percentile </strong> which
+        is lower than the average percentile 72% of all the engineers who took
+        this assessment
       </p>
       <div className="h-64 w-full">
         <ResponsiveContainer width="100%" height="100%">
